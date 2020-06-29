@@ -29,6 +29,10 @@ might be overkill for simple apps.</p>
 <br />
 <br />
 Screenshots of the sample app:
-[Home Screen without notes](screenshots/1.png)
-[New Note Screen](screenchots/2.png)
-[Home Screen with notes](screenchots/3.png)
+<table>
+  <tr>
+    <td><img src="screenshots/1.png" /></td>
+    <td><img src="screenshots/2.png" /></td>
+    <td><img src="screenshots/3.png" /></td>
+  </tr>
+</table>
