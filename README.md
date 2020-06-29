@@ -29,6 +29,6 @@ might be overkill for simple apps.</p>
 <br />
 <br />
 Screenshots of the sample app:
-<img src="./screenchots/1.png" />
-<img src="./screenchots/2.png" />
-<img src="./screenchots/3.png" />
+[Home Screen without notes](screenshots/1.png)
+[New Note Screen](screenchots/2.png)
+[Home Screen with notes](screenchots/3.png)
