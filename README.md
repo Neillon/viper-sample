@@ -29,6 +29,6 @@ might be overkill for simple apps.</p>
 <br />
 <br />
 Screenshots of the sample app:
-<img src="./screenchots/1.jfif" />
-<img src="./screenchots/2.jfif" />
-<img src="./screenchots/3.jfif" />
+<img src="./screenchots/1.png" />
+<img src="./screenchots/2.png" />
+<img src="./screenchots/3.png" />
