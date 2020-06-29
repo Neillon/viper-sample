@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/listNotesFragment">
+
+    <fragment
+        android:id="@+id/listNotesFragment"
+        android:name="com.neillon.viper_sample.view.ListNotesFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_list_notes">
+        <action
+            android:id="@+id/action_listNotesFragment_to_saveNoteFragment"
+            app:destination="@id/saveNoteFragment" />
+        <argument
+            android:name="title"
+            android:defaultValue="Notes"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveNoteFragment"
+        android:name="com.neillon.viper_sample.view.SaveNoteFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_save_note">
+        <argument
+            android:name="title"
+            android:defaultValue="New note"
+            app:argType="string" />
+    </fragment>
+</navigation>
